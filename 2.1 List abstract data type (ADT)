@@ -1,0 +1,31 @@
+A List ADT is a data structure that holds ordered data and provides operations to manipulate that data. Key characteristics include:
+
+Ordered storage of elements
+Operations like append, remove, search, and print
+Abstraction of implementation details from the user
+Common operations:
+
+Append: Add an element to the end
+Remove: Delete a specific element
+Search: Find if an element exists
+Print: Display all elements in order
+Example:
+Let's create a list of integers and perform some operations:
+
+text
+
+list = new List()
+Append(list, 7)
+Append(list, 9)
+Append(list, 5)
+
+Print(list)  // Output: 7, 9, 5
+
+Search(list, 8)  // Result: Not found
+
+Remove(list, 9)
+Print(list)  // Output: 7, 5
+
+Append(list, 12)
+Print(list)  // Output: 7, 5, 12
+This example demonstrates how a List ADT maintains order, allows for element manipulation, and abstracts the underlying implementation from the user. The user doesn't need to know how the list is stored internally (array, linked list, etc.) to use its operations effectively.
